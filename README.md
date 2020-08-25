@@ -10,7 +10,7 @@ Step2: Navigate to the root project folder in command prompt.<br>
 Step4: Execute mvn install command.
 
 How To Run & Use:<br>
-Step1: use java -jar <jar-file-name><br>
+Step1: use java -jar jar-file-name <br>
 Step2: Use below APIs for OrderItem Service<br>
 	GET: http://localhost:8080/orderitem/{id}<br>
 	Parameters: Replace {id} with productCode.<br>
@@ -23,9 +23,9 @@ Step2: Use below APIs for OrderItem Service<br>
   }
 	
 Step3: Use below APIs for Order Service<br>
-	GET: localhost:8002/order/{id}<br>
+	GET: http://localhost:8002/order/{id}<br>
 	Parameters: Replace {id} with orderId<br>
-	POST: localhost:8002/order/<br>
+	POST: http://localhost:8002/order/<br>
 	Request Body:<br>
   {
     "customerId" : 1,
